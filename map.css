@@ -1,0 +1,18 @@
+body{
+    background-color: beige;
+    display: flex;
+    place-content: center center;
+}
+
+.container{
+    width: 50%;
+}
+.container path{
+    fill : aquamarine;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.container :hover{
+    fill: saddlebrown;
+}
